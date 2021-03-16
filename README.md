@@ -6,9 +6,12 @@ tests without actually launching the browser.
 
 ### Why do we need Headless testing?
 
-We can execute our tests in Headless mode to save time and have faster execution. 
-It is similar to the normal execution but in this we don't actually launch our web browser, but still 
-execute all the steps in the test script.
+Using the headless testing we can execute our tests without actually opening the web browser.
+This is useful when we integrate our tests with the CI/CD pipelines where the test scripts run automatically without any human intervention.
+In this scenario, it is not necessary that the web browser is launched because the CI/CD pipelines are run automatically at the night or in early
+the morning when no one is there to see the execution.
+
+In the headless mode less resources are required to execute the tests. The tests are run normally as they would run on actual browser.
 
 ### Technologies used:-
 **Programming language** - Java
